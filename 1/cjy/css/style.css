@@ -44,7 +44,7 @@ input[type=password]:focus{border-color: #84b9e6;}
 .form-title{font-size: 30px;margin: 15px 0;}
 .icon-p,.icon-p:before{	box-shadow: 0 0 0 3px #f8f8f8;	border-radius: 3px;}
 .icon-p:after{	position: absolute;	top: 29px;	left: 23px;	height: 0;	width: 0;	z-index: 0;	content: ' ';	background: #f8f8f8;	border-top: 9px solid #5d9fd7;	border-right:9px solid transparent;}
-.icon-p{font: 23px/1.5 "微软雅黑","黑体","宋体","Lucida Grande","Lucida Sans Unicode";	position: relative;	font-size: 30px;	background: #5d9fd7;	color: #F8F8F8;	padding: 0px 8px 0;	z-index: 1;}
+.icon-p{margin-right:10px;font: 23px/1.5 "微软雅黑","黑体","宋体","Lucida Grande","Lucida Sans Unicode";	position: relative;	font-size: 30px;	background: #5d9fd7;	color: #F8F8F8;	padding: 0px 8px 0;	z-index: 1;}
 .icon-p:before {	position: absolute;	top: -9px;	left: -9px;	height: 42px;	z-index: -1;	content: ' ';	background: #5d9fd7;	width: 33px;}
 .icon-p i{	position: absolute;	top: 26px;	left: 21px;	background: #f8f8f8;	width: 13px;	height: 13px;}
 
