@@ -1,0 +1,74 @@
+@import url(./reset.css);
+
+body{
+	color:#444;
+	background: rgb(235, 235, 235);
+}
+.container{
+	width: 500px;
+	margin:0 auto;
+	padding-top: 40px;
+}
+.login-form{
+	background: white;
+	padding: 0px 0 50px;
+	border: 1px solid rgb(214, 214, 214);
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px 1px rgba(44, 44,44, 0.1);
+}
+.title-wrap{
+	font:23px/1.5 "微软雅黑","黑体","宋体","Lucida Grande","Lucida Sans Unicode";
+	text-align: center;
+
+	background: #F8F8F8;
+	color: #558DBC;
+
+	height: 100px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+.form-wrap{
+	padding: 30px 80px;
+}
+.icon-p,.icon-p:before {
+	border: 3px solid #F8F8F8;
+	border-radius: 6px;
+}
+.icon-p:after{
+	position: absolute;
+	top: 29px;
+	left: 23px;
+	height: 0;
+	width: 0;
+	z-index: 0;
+	content: ' ';
+	background: #f8f8f8;
+	border-top: 9px solid #5d9fd7;
+	border-right:9px solid transparent;
+}
+.icon-p{
+	position: relative;
+	font-size: 30px;
+	background: #5d9fd7;
+	color: #F8F8F8;
+	padding: 0 7px;
+	z-index: 2;
+}
+.icon-p:before {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	height: 40px;
+	z-index: -1;
+	content: ' ';
+	background: #5d9fd7;
+	width: 30px;
+}
+.icon-p i{
+	position: absolute;
+	top: 26px;
+	left: 20px;
+	background: #f8f8f8;
+	width: 13px;
+	height: 13px;
+}
