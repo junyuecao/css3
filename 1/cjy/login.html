@@ -8,25 +8,24 @@
 	<div class="container">
 		<div class="login-form">
 			<div class="title-wrap">
-				<h1 class="title">
-					<span class="icon-p">
-						P <i></i>
-					</span>
-					项目管理协作平台
-				</h1>
+				<h1 class="title"><span class="icon-p">P<i></i></span>项目管理协作平台</h1>
 			</div>
 			<div class="form-wrap">
 				<form action="#" method="post">
-					<h3>登录</h3>
-					<input type="text" placeholder="邮箱">
+					<h3 class="form-title">登录</h3>
+					<input class="input-error" type="text" placeholder="邮箱">
+					<p class="error"><i class="i i1"></i>该邮箱不存在！</p>
 					<input type="password" placeholder="密码">
-					<input type="submit" value="登录"></form>
-				<a href="#">忘记密码？</a>
+					<div class="login-submit">
+						<input type="submit" value="登 录" class="mybtn mybtn-blue">
+						<a href="#" class="forget-link">忘记密码？</a>
+					</div>
+				</form>
+				
 			</div>
 		</div>
-		<div>
-			还没有帐号？
-			<a href="#">马上注册</a>
+		<div class="centered reg">
+			还没有帐号？<a href="#" class="reg-link">马上注册</a>
 		</div>
 
 	</div>
