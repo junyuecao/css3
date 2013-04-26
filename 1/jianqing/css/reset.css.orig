@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
 ﻿@charset "utf-8";
 /*
 *jieorlin CSS Reset
@@ -91,6 +94,7 @@ zoom:1; vertical-align:top; white-space:nowrap; word-wrap:normal; overflow:hidde
 
 .box-shadow { border-radius:3px; box-shadow:0 1px 3px rgba(30, 30, 30, .2); border:1px solid #CCC; background:#FFF; -moz-transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; transition: all 0.5s ease 0s; }
 .box-shadow:hover { border-color:rgba(82, 168, 236, 0.5); box-shadow:0 1px 6px rgba(82, 168, 236, 0.5); }
+<<<<<<< HEAD
 =======
 ﻿@charset "utf-8";
 /*
@@ -185,3 +189,5 @@ zoom:1; vertical-align:top; white-space:nowrap; word-wrap:normal; overflow:hidde
 .box-shadow { border-radius:3px; box-shadow:0 1px 3px rgba(30, 30, 30, .2); border:1px solid #CCC; background:#FFF; -moz-transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; transition: all 0.5s ease 0s; }
 .box-shadow:hover { border-color:rgba(82, 168, 236, 0.5); box-shadow:0 1px 6px rgba(82, 168, 236, 0.5); }
 >>>>>>> 04b87803b99251a702407d7054d90f7dc5c9a8f2
+=======
+>>>>>>> origin/master
